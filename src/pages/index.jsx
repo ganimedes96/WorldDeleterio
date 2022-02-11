@@ -52,6 +52,7 @@ export default function Home() {
                             className='name' 
                             placeholder='Digite seu usuario do Github'
                             value={username}
+                            required
                             onChange={(event)=>{
                               const valor = event.target.value
                               setUsername(valor)
