@@ -39,8 +39,8 @@ export default function Home() {
                         <span>{username}</span>
                   </div>
                   <div className={styles.userName}>
-                    <h2 className={styles.Title}>Boas vindas de volta!</h2>
-                    <p>Universe-Messege</p>
+                    <h2 className={styles.Title}>Bem vindo ao Reino Deletério!</h2>
+                    <p>Universe-Deletério</p>
                       <form 
                           onSubmit={(eventInfo)=>{
                           eventInfo.preventDefault()
