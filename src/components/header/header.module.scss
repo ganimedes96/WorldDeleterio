@@ -1,0 +1,18 @@
+.header{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between; 
+    padding: 0 2rem;
+    span{
+        font-size: 20px;
+
+    }
+    .btn{
+        font-size: 20px;
+        background: transparent;
+        color: var(--white);
+        border: none;
+
+    }
+}

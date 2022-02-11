@@ -1,0 +1,76 @@
+.container{
+   
+   height: 100vh;
+   max-width:1120px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+    .content{
+        background: var(--gray);
+        padding: 2rem 0;
+        border-radius: 5px;
+        width: 70%;
+        padding: 2rem 1rem;
+        .boxMessege{
+            background: var(--gray-800);
+        
+            margin:  2rem;
+            height:35rem;
+            border-radius: 5px;
+            overflow-y: scroll;
+            display: flex;
+            flex-direction: column-reverse;
+            flex: 1;
+        
+            .contentmessege{
+               background-color: var(--gray);
+               margin-bottom: 1rem;
+               padding: 1rem;
+                    
+                .messege{
+                    padding-left:  4rem;
+                    margin-top: 1rem;
+                    
+                }
+                .user{
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                    padding: 0 0.5rem;
+                    img{
+                        
+                     
+                       width: 40px;
+                       height: 40px;
+                       border-radius:50%;
+                    
+                   } 
+                }
+            }
+            
+        
+        }
+        
+        
+        form{
+            margin-top: 1rem;
+            padding: 0 2rem;
+            display: flex;
+            
+            gap: 1rem;
+            .text{
+                
+                width: 100%;
+                border: 0;
+                resize:none;
+                border-radius: 5px;
+                padding: 6px 8px;
+                background: var(--back);
+                color: rgba(219, 219, 223, 0.616);
+                
+            }
+        }
+    }
+}
